@@ -1,15 +1,20 @@
+import Header from "./components/Header"
 import NotificationButton from "./components/NotificationButton"
+import SalesCard from "./components/SalesCard"
 
 function App() {
-   return(
-    <div>
-    <h1>Teste APP Dimas</h1>
-    <h1>Semana Spring React</h1>
-    <h1>Backend (Java/Spring Boot) e Frontend (ReactJS, CSS, HTML, Typescript)</h1>
-    <NotificationButton/>
-    </div>
-    )
+  return (
+    <>
+      <Header />
+      <main>
+        <section id="sales">
+          <div className="dsmeta-container">
+            <SalesCard />
+          </div>
+        </section>
+      </main>
+    </>
+  )
 }
 
 export default App
- 
