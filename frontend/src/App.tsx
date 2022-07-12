@@ -1,45 +1,15 @@
-import { useState } from 'react'
-import logo from './logo.svg'
-import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React!</p>
-        <p>
-          <button type="button" onClick={() => setCount((count) => count + 1)}>
-            count is: {count}
-          </button>
-        </p>
-        <p>
-          Edit <code>App.tsx</code> and save to test HMR updates.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          {' | '}
-          <a
-            className="App-link"
-            href="https://vitejs.dev/guide/features.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Vite Docs
-          </a>
-        </p>
-      </header>
+   return(
+    <div style={{
+     backgroundImage : `url("https://www.instagram.com/p/CABqwTmjJEq/?utm_source=ig_web_copy_link")`
+    }}>
+    <h1>Teste APP Dimas</h1>
+    <h1>Semana Spring React</h1>
+    <h1>Backend (Java/Spring Boot) e Frontend (ReactJS, CSS, HTML, Typescript)</h1>
     </div>
-  )
+    )
 }
 
 export default App
+ 
